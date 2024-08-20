@@ -1,8 +1,8 @@
 import styles from './ProjectsStyles.module.css';
 import viberr from '../../assets/viberr.png';
-/* import freshBurger from '../../assets/fresh-burger.png';
-import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png'; */
+import appImg from '../../assets/je6pozqe.png';
+import nodeIMG from '../../assets/node.png';
+import fastapiIMG from '../../assets/fastapi.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -14,26 +14,26 @@ function Projects() {
           src={viberr}
           link="https://github.com/jsiguenzac/Ecommerce01"
           h3="First Ecommerce"
-          p="Ecomerce App"
+          p="Ecommerce con Java JPA - Spring Boot - Thymeleaf"
         />
-        {/* <ProjectCard
-          src={freshBurger}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
-        />
-        <ProjectCard
-          src={hipsster}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
-          p="Glasses Shop"
+         <ProjectCard
+          src={appImg}
+          link="https://github.com/jsiguenzac/Demo-Probador-Virtual"
+          h3="Demo - Probador Virtual"
+          p="Desarrollo de app con Flutter"
         />
         <ProjectCard
-          src={fitLift}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="FitLift"
-          p="Fitness App"
-        /> */}
+          src={nodeIMG}
+          link="https://github.com/jsiguenzac/firts_backend_node"
+          h3="Backend Node"
+          p="Backend con NodeJS, Typescript, JWT, TypeORM y PostgreSQL."
+        />
+        <ProjectCard
+          src={fastapiIMG}
+          link="https://api-logistica-dev.vercel.app"
+          h3="Backend FastAPI"
+          p="Servicios para app logística (JWT, PostgreSQL y SQLAlchemy)."
+        />
       </div>
     </section>
   );
