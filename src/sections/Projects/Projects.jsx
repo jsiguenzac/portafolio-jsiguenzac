@@ -1,5 +1,5 @@
 import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
+import scrap from '../../assets/scraping.png';
 import appImg from '../../assets/je6pozqe.png';
 import nodeIMG from '../../assets/node.png';
 import fastapiIMG from '../../assets/fastapi.png';
@@ -11,16 +11,16 @@ function Projects() {
       <h1 className="sectionTitle">Proyectos</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
-          link="https://github.com/jsiguenzac/Ecommerce01"
-          h3="First Ecommerce"
-          p="Ecommerce con Java JPA - Spring Boot - Thymeleaf"
+          src={scrap}
+          link="https://github.com/jsiguenzac/WebScrapingEcomm"
+          h3="Web Scraping"
+          p="Uso de Selenium y Pandas para exportar data en Excel."
         />
          <ProjectCard
           src={appImg}
           link="https://github.com/jsiguenzac/Demo-Probador-Virtual"
           h3="Demo - Probador Virtual"
-          p="Desarrollo de app con Flutter"
+          p="Desarrollo de app con Flutter."
         />
         <ProjectCard
           src={nodeIMG}
