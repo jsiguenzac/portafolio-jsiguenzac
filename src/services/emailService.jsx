@@ -8,17 +8,13 @@ export const sendEmail = async (subject, email, message) => {
     };
     
     try {
-        const [response, err] = await fetch(`${API_URL}/Email/Me`, {
+        const response = await fetch(`${API_URL}/Email/Me`, {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
             },
             body: JSON.stringify(data),
         });
-
-        if(err){
-            throw new Error();
-        }
 
         if (response.status === 200){
             // Si la solicitud fue exitosa
