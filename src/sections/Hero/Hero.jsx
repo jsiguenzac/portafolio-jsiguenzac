@@ -11,7 +11,7 @@ import instagramDark from '../../assets/instagram-dark.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
-import CV from '../../assets/CV_Joel_Sigüenza.pdf';
+import CV from '../../assets/CV_JoelSiguenza.pdf';
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
